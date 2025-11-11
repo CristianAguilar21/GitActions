@@ -1,11 +1,11 @@
-name: Mostrar hora
-on:
+name: Mostrar hola
+on: 
   push:
-    branch: [main]
-jobs:
+    branch: [ main ]
+jobs: 
   build:
     runs-on: ubuntu-latest
-    steps:
+    steps: 
     - name: Escribir hola por pantalla
       run: |
-      echo "Hola desde el runner de github"
+        echo "Hola desde el runner de github"
